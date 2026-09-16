@@ -1,0 +1,46 @@
+\documentclass[14pt]{extarticle}
+
+\usepackage{labstyle}
+
+\def\labauthors{Скороходов С.А., Степушов Г.С.}
+\def\labgroupshort{438Б}
+\def\labgroupfull{0424С1ИБг3}
+\def\labtheme{Исследование отражательного клистрона}
+\def\shortlabtheme{Клистрон}
+
+\graphicspath{{image/}{graph/}}
+
+%\addbibresource{BibTeX/references.bib}
+
+
+%\usepackage[euler]{textgreek}
+
+\begin{document}
+	\pagestyle{fancy}
+	% Титульный лист
+	\include{source/title.tex}
+
+	% Содержание
+	\include{source/content.tex}
+
+	% Введение
+	\include{source/introduction.tex}
+
+	% Теоритическая часть
+	\include{source/theory.tex}
+
+	% Практическая часть
+	\include{source/practice.tex}
+
+	% Вывод
+	\include{source/conclusion.tex}
+
+	% Вопросы
+	\include{source/questions.tex}
+
+	% Список используемой литературы
+%	\include{source/references.tex}
+
+	% Приложение
+	\include{source/appendix.tex}
+\end{document}
