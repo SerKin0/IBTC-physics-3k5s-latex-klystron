@@ -43,7 +43,7 @@ plot_sorted(ax, ip3, id3, r"$U_{отр} = 36$ В", '^', '-.')
 # Настройки
 # ax.set_title(r"Зависимость тока детектора $I_д$ от тока пучка $I_п$ ($U_{рез} = 40$ В)", fontsize=14)
 ax.set_xlabel(r"Ток пучка $I_п$, мА", fontsize=12)
-ax.set_ylabel(r"Ток детектора $I_д$, мкА", fontsize=12)
+ax.set_ylabel(r"Ток детектора $I_д$, делений", fontsize=12)
 ax.grid(True, which='both', linestyle='--', alpha=0.7)
 ax.legend(fontsize=10)
 

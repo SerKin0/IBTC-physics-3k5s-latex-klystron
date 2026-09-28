@@ -35,7 +35,7 @@ ax.plot(u2, i2, marker='s', linestyle='--', label=r'$U_{рез} = 140$')
 # Настройки графика
 # ax.set_title(r'Зависимость тока детектора $I$ от напряжения на отражателе $U_{\text{отр}}$')s
 ax.set_xlabel(r'Напряжение на отражателе $U_{отр}$, В')
-ax.set_ylabel(r'Ток детектора $I$, мкА')
+ax.set_ylabel(r'Ток детектора $I$, делений')
 ax.grid(True, which='both', linestyle='--', alpha=0.7)
 ax.legend()
 ax.set_xticks(range(0, 45, 5))

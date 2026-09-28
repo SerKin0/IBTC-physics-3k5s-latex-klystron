@@ -32,7 +32,7 @@ ax1.plot(urez1, i1, marker='o', linestyle='-', label=r"$U_{отр} = 40$ В")
 ax1.plot(urez2, i2, marker='s', linestyle='--', label=r"$U_{отр} = 37$ В")
 # ax1.set_title(r"Зависимость тока детектора $I$ от напряжения на резонаторе $U_{рез}$", fontsize=14)
 ax1.set_xlabel(r"Напряжение на резонаторе $U_{рез}$, В", fontsize=12)
-ax1.set_ylabel(r"Ток детектора $I$, мкА", fontsize=12)
+ax1.set_ylabel(r'Ток детектора $I$, делений', fontsize=12)
 ax1.grid(True, which='both', linestyle='--', alpha=0.7)
 ax1.legend(fontsize=10)
 
